@@ -1,0 +1,159 @@
+body,html
+{
+  width: 100%;
+  height: 100%;
+  font-family: sans-serif;
+}
+
+*
+{
+  font-weight: 400 !important;
+}
+
+.header_css
+{
+  background-image: url("../assets/pics/main_header.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 30rem;
+  height: auto;
+  width: 100%;
+}
+
+.header_css h1
+{
+  font-size: 5rem;
+}
+
+@media (min-width:992px)
+{
+  .header_css
+  {
+    height: 100vh;
+  }
+}
+
+.section_content
+{
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+}
+
+
+.section_content_heading h3
+{
+    font-size: 1rem;
+    text-transform: uppercase;
+}
+.section_content_heading h2
+{
+    font-size: 3rem;
+    
+}
+
+.btn-xl 
+{
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    padding-right: 2.5rem;
+    padding-left: 2.5rem;
+}
+
+.services_icon
+{
+background-color: white;
+color: brown;
+display: block;
+width: 7rem;
+height: 7rem;
+line-height: 7.5rem;
+font-size: 2.5rem;
+}
+
+.fade_text
+{
+ color:rgba(255,255,255,0.6);
+}
+
+.dl_text
+{
+  padding-top: 15rem;
+  padding-bottom: 15rem;
+  padding-left: 0;
+  padding-right: 0;
+  background-image: url(../assets/pics/bg-download.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.dl_text h2
+{
+ font-size: 3.1rem;
+ font-weight: 700;
+ max-width: 27rem;
+}
+
+.portfolio_item
+{
+  display: block;
+  position: relative;
+  overflow: hidden;
+  max-width: 530px;
+
+}
+
+@media (min-width:992px)
+{
+  .portfolio_item
+  {
+     max-width: none;
+     margin: 0;
+  }
+}
+
+.portfolio_item_caption
+{
+    background-color: rgba(0, 0, 0, 0.2);
+    position: absolute;
+    top:0;
+    bottom: 0;
+    z-index: 1;
+}
+
+.portfolio_item_caption_content
+{
+    color:white;
+    margin-top: auto;
+    margin-right: auto;
+    margin-bottom: 2rem;
+    margin-left: 2rem;
+}
+
+.portfolio_item:hover img
+{
+  transform: scale(0.85);
+}
+
+.portfolio_item:hover  .portfolio_item_caption
+{
+  transform: scale(0.85);
+  background-color: rgba(4, 105, 19, 0.7);
+}
+
+.portfolio_item_caption, .portfolio_item img
+{
+  transition:400ms ;
+}
+
+.social_link
+{
+  display: block;
+  text-decoration: none;
+  height: 4rem;
+  width: 4rem;
+  line-height: 4rem;
+  font-size: 2rem;
+  background-color: rgb(58, 147, 150);
+}
